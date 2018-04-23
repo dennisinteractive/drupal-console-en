@@ -12,14 +12,21 @@ options:
   site-uri: 'Drupal uri (for multi-sites).'
   directory: 'Directory to store the generated site alias.'
   site: 'Use local site as destination.'
+  profile: 'Which profile would you like to install?'
 questions:
   name: 'Select or enter the site name'
   environment: 'Enter the environment name (dev, test, prod, qa, dev.uri, test.uri, etc...)'
   type: 'Select site type. Allowed options [local, ssh or container].'
   composer-root: 'Enter the Drupal root project directory.'
+  drupal-root: 'Enter the Drupal root project directory.'
+  server-root: 'Enter the Server root project directory.'
   host: 'Enter the ip/domain name of the remote system.'
   port: 'Enter the port to use when connecting via ssh.'
   user: 'Enter the username to use when connecting via ssh.'
   extra-options: 'Select or enter a valid extra option.'
   site-uri: 'Enter the Drupal uri (for multi-sites).'
   directory: 'Select the directory to store the generated site alias.'
+instructions:
+  arrows: 'Use the arrows',
+  autocomplete: 'Start typing to use autocomplete',
+  autocomplete-arrows: 'Use the arrows or start typing to use autocomplete'

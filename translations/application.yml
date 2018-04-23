@@ -17,6 +17,11 @@ options:
     no-ansi: 'Disable ANSI output'
     no-interaction: 'Do not ask any interactive question'
     check-fix: 'Attempt to fix any missing configuration.'
+    tips:
+        arrows: 'Use the arrows to select an option',
+        autocomplete: 'Start typing to use autocomplete',
+        autocomplete-arrows: 'Use the arrows or start typing to use autocomplete'
+
 arguments:
     command: 'The command to execute'
 messages:
@@ -49,6 +54,7 @@ messages:
       command:
         error: 'Command: "%s" is deprecated.'
         extra: 'You must execute: "%s" instead'
+
 errors:
     invalid-command: 'Command "%s", is not a valid command name.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
