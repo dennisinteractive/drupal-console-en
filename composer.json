@@ -29,6 +29,14 @@
             "homepage":  "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+
+        },
+        "vendor-dir": "vendor"
+    },
     "support": {
         "issues": "https://github.com/hechoendrupal/DrupalConsole/issues",
         "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
